@@ -1,0 +1,530 @@
+
+.container{
+width: 1280px;
+height: 599px;
+left: 0px;
+top: 0px;
+margin: 0 auto;
+
+}
+.main-nav{
+ display: flex;
+background: #222222;
+}
+
+.site-menu{
+  display: flex;
+}
+.site1{
+  position: absolute;
+width: 72px;
+height: 16px;
+left: 384px;
+top: 85px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #D4D4D4;
+}
+.site2{
+  position: absolute;
+width: 58px;
+height: 17px;
+left: 486px;
+top: 85px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #D4D4D4;
+}
+.site3{
+  position: absolute;
+width: 69px;
+height: 17px;
+left: 575px;
+top: 85px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #D4D4D4;
+}
+.icon{
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  left: 1162px;
+  top: 85px;
+  
+  background: url(mail-icon.png);
+}
+.icon1{
+  position: absolute;
+width: 17px;
+height: 17px;
+left: 1203px;
+top: 85px;
+
+background: url(phone-icon.png);
+}
+.logo32{
+  position: absolute;
+width: 62px;
+height: 62px;
+left: 260px;
+top: 54px;
+
+background: url(logo.png);
+}
+.contacts-menu{
+  display: flex;
+  margin-left: auto;
+  margin-right: 160px;
+}
+.about-us{
+  width: 1280px;
+height: 600px;
+left: 286px;
+top: 229px;
+
+font-family: Courier New;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 10px;
+
+color: #FFFFFF;
+background: #222222;
+}
+
+.h1A{
+  position: absolute;
+  width: 238px;
+  height: 100px;
+  left: 336px;
+  top: 229px;
+  
+  font-family: Courier New;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 50px;
+  
+  color: #FFFFFF;
+}
+.p1{
+  position: absolute;
+width: 254px;
+height: 55px;
+left: 336px;
+top: 361px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+.moon{
+  position: absolute;
+  width: 438px;
+  height: 438px;
+  left: 782px;
+  top: 140px;
+  
+  background: url(moon-rocket.png);
+}
+.btn2{
+  position: absolute;
+width: 19px;
+height: 16px;
+left: 531px;
+top: 487px;
+
+background: url(right-arrow-dark.png);
+}
+.btn1{
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 332px;
+  top: 470px;
+  
+  background: #FFCB06;
+  border-radius: 25px;
+
+}
+.btn{
+  position: absolute;
+width: 102px;
+height: 17px;
+left: 370px;
+top: 487px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+}
+
+.features{
+width: 1280px;
+height: 321px;
+left: 0px;
+top: 0px;
+margin: 0 auto;
+background: #131313;
+}
+.png1{
+  position: absolute;
+width: 60px;
+height: 68px;
+left: 263px;
+top: 715px;
+
+background: url(advantage-icon-1.png);
+}
+.feature-made-in-russia{
+  position: absolute;
+width: 170px;
+height: 55px;
+left: 263px;
+top: 800px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #D4D4D4;
+}
+.png2{
+  position: absolute;
+  width: 60px;
+  height: 68px;
+  left: 523px;
+  top: 715px;
+  
+  background: url(advantage-icon-2.png);
+}
+.feature-food{
+  position: absolute;
+  width: 157px;
+  height: 55px;
+  left: 523px;
+  top: 800px;
+  
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #D4D4D4;
+}
+.png3{
+  position: absolute;
+  width: 60px;
+  height: 68px;
+  left: 783px;
+  top: 715px;
+  
+  background: url(advantage-icon-3.png);
+}
+.feature-pilots{
+  position: absolute;
+  width: 150px;
+  height: 55px;
+  left: 782px;
+  top: 800px;
+  
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #D4D4D4;
+}
+.png4{
+  position: absolute;
+  width: 60px;
+  height: 68px;
+  left: 1043px;
+  top: 715px;
+  
+  background: url(advantage-icon-4.png);
+}
+.feature-moon-rover{
+  position: absolute;
+  width: 172px;
+  height: 55px;
+  left: 1043px;
+  top: 800px;
+  
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #D4D4D4;
+}
+.moon-vacation{
+  width: 1280px;
+height: 808px;
+left: 0px;
+top: 321px;
+margin: 0 auto;
+background: #FFFFFF;
+}
+.left-column{
+  position: absolute;
+width: 440px;
+height: 346px;
+left: 260px;
+top: 1042px;
+
+background: url(map.jpg);
+}
+.lead{
+  position: absolute;
+width: 375px;
+height: 85px;
+left: 779px;
+top: 1017px;
+
+font-family: Courier New;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 27px;
+
+color: #000000;
+}
+.p2{
+  position: absolute;
+width: 454px;
+height: 207px;
+left: 779px;
+top: 1184px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+}
+.h3-1{
+  position: absolute;
+width: 375px;
+height: 27px;
+left: 0px;
+top: 478px;
+
+font-family: Courier New;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 27px;
+
+color: #000000;
+}
+.recommendations-list{
+  position: absolute;
+width: 424px;
+height: 150px;
+left: 0px;
+top: 532px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+}
+.h3-2{
+  position: absolute;
+width: 346px;
+height: 27px;
+left: 795px;
+top: 1520px;
+
+font-family: Courier New;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 27px;
+
+color: #000000;
+}
+.recommendations-list2{
+  position: absolute;
+width: 370px;
+height: 150px;
+left: 795px;
+top: 1574px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+.site-footer{
+  position: absolute;
+width: 1280px;
+height: 354px;
+left: 95px;
+top: 1872px;
+margin: 0 auto;
+background: #131313;
+}
+.logo{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 160px;
+  top: 60px;
+  
+  background: url(logo.png);
+}
+.company-title{
+  position: absolute;
+  width: 59px;
+  height: 17px;
+  left: 235px;
+  top: 85px;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #D4D4D4;
+}
+.copyrights{
+  position: absolute;
+width: 162px;
+height: 36px;
+left: 159px;
+top: 230px;
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #555555;
+}
+.footer-submenu-title{
+  position: absolute;
+width: 94px;
+height: 17px;
+left: 420px;
+top: 90px;
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #D4D4D4; 
+}
+.footer-submenu{
+  position: absolute;
+  width: 63px;
+  height: 93px;
+  left: 379px;
+  top: 177px;
+  
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #888888;
+}
+.footer-submenu-title1{
+  position: absolute;
+width: 75px;
+height: 17px;
+left: 679px;
+top: 90px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+color: #D4D4D4;
+}
+.footer-submenu1{
+  position: absolute;
+  width: 91px;
+  height: 93px;
+  left: 639px;
+  top: 177px;
+  
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #888888;
+  
+}
+.footer-submenu-title2{
+  position: absolute;
+  width: 91px;
+  height: 17px;
+  left: 938px;
+  top: 90px;
+  
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #D4D4D4;
+}
+.footer-submenu2{
+  position: absolute;
+  width: 131px;
+  height: 93px;
+  left: 898px;
+  top: 177px;
+  
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #888888;
+}
+ul{
+  list-style: none;
+}
