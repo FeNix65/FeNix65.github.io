@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    
+
+    <h1 class="point">Угадал</h1>
+    <div class="container" >
+    <div class="box"><img src="box1.jpg" alt="" srcset="" data-box="0"></div>
+    <div class="box"><img src="box1.jpg" alt="" srcset="" data-box="1"></div>
+    <div class="box"><img src="box1.jpg" alt="" srcset="" data-box="2"></div>
+    </div>
+    <button class="cliker">ИГРАТЬ</button>
+<script>
+    let box2=document.querySelectorAll('img');
+    let start = document.querySelector('.cliker');
+let randomNumber = Math.floor(Math.random()*3);
+let score = 0;
+let numberAttempt = 1;
+let scoreMenu=document.querySelector('.point')
+let x = 0;
+
+scoreMenu.innerHTML = `Ваши очки:${score} попытка ${numberAttempt}`;
+
+let box = document.querySelector('.container');
+box.addEventListener('click', e =>{
+console.log('click');
+if(x==0){
+console.log(e.target.dataset.box);
+if(e.target.dataset.box== randomNumber){
+    e.target.src='box2.jpg';
+    score++;
+    scoreMenu.innerHTML=`Ваши очки:${score} попытка ${numberAttempt}`;
+}
+else{
+    e.target.src='box1.jpg';
+}
+x++;
+}else {return false;}
+})
+start.onclick=()=>{
+    for(let i = 0; i < box2.length; i++ ){
+        console.log(box2[i].src='box1.jpg');
+    }
+    randomNumber=Math.floor(Math.random()*3);
+    numberAttempt++;
+    scoreMenu.innerHTML=`Ваши очки:${score} попытка ${numberAttempt}`;
+    return x = 0;
+}
+
+
+</script>
+</body>
+</html>
